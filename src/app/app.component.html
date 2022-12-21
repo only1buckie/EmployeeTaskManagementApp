@@ -1,0 +1,25 @@
+<nav class= "navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class= "navbar-nav">
+        <li class= "nav-item">
+            <a routerLink= "employees" routerLinkActive= "active" class= "nav-link">Employees</a>
+        </li>
+        <li class= "nav-item">
+            <a routerLink= "add-employee" routerLinkActive= "active" class= "nav-link">Add Employee</a>
+        </li>
+        <li class= "nav-item">
+            <a routerLink= "task" routerLinkActive= "active" class= "nav-link">Employee Task</a>
+        </li>
+    </ul>
+</nav>
+
+<h2 class= "text-center">{{title}}</h2>
+
+<div class= "container">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class= "footer">
+    <div class= "container">
+        <marquee behavior="alternate"> &copy;philip_buckie 2022</marquee>
+    </div>
+</footer>
